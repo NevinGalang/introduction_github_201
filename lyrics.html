@@ -6,15 +6,22 @@
         <h1>Snooze</h1>
 
         <img src="Sza.jpg"alt= "Sza image"/>
-        <div>    
-            <p>I can't lose when I'm with you</p>
-            <p>How can I snooze and miss the moment?</p>
-            <p>You just too important</p>
-            <p>Nobody do body like you do</p>
-            <p>I can't lose when I'm with you</p>
-            <p>I can't just snooze and miss the moment</p>
-            <p>You just too important</p>
-            <p>Nobody do body like you do, you do</p>
+        <div> 
+            <!-- onclick, .innerHTML='you make me ahh yeahh'-->   
+            <p
+                id="demo"
+                onclick="document
+                        .getElementById('demo')
+                        .innerHTML='you make me ahh yeahh'">I can't lose when I'm with you
+            </p>    
+            <!-- ondblcick, .style.backgroundColor='green'-->
+            <p ondblclick="this.style.backgroundColor='green'">How can I snooze and miss the moment?</p>
+
+            <!-- onmouseover, .style.fontSize='60px'-->
+            <p onmouseover="this.style.fontSize='60px'">You just too important</p>
+
+            <!-- onmouseout, .style.color='yellow'-->
+            <p onmouseout="this.style.color='blue'">Nobody do body like you do</p>
         </div>
     </body>     
 </html>    
